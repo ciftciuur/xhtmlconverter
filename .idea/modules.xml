@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/converter/converter.iml" filepath="$PROJECT_DIR$/converter/converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pageconverter/pageconverter.iml" filepath="$PROJECT_DIR$/pageconverter/pageconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xhtmlconverter.iml" filepath="$PROJECT_DIR$/.idea/xhtmlconverter.iml" />
+    </modules>
+  </component>
+</project>
