@@ -60,6 +60,10 @@ public class RichToPrime {
 
 	list.add(new RichToPrime("bodyClass=\"padding5px\"", ""));
 
+	list.add(new RichToPrime("value=\"DÜZENLE\"", "title=\"DÜZENLE\""));
+
+	list.add(new RichToPrime("value=\"SİL\"", "title=\"SİL\""));
+
 	list.add(new RichToPrime("columnClasses=\"formLabel,formInput\"", ""));
 
 	list.add(new RichToPrime("inputStyle=\"input\"", ""));
@@ -97,7 +101,7 @@ public class RichToPrime {
 	list.add(new RichToPrime("<s:conversationId />", ""));
 	list.add(new RichToPrime("<rich:extendedDataTable", "<p:dataTable emptyMessage=\"Kayıt Bulunamadı!\" "));
 	// TODO: default olan k�s�mda buraya eklenicek
-	list.add(new RichToPrime("componentControl", "oncomplete=\"PF('Wv').show()\""));
+	list.add(new RichToPrime("componentControl", "oncomplete=\"defaultRequestHandler(xhr, status, args);\""));
 	list.add(new RichToPrime("<rich:modalPanel",
 		"<p:dialog closeOnEscape=\"true\" header=\"\" style=\"width: auto !important;\" widgetVar=\"Wv\" modal=\"true\"> <ui:include src=\"/pages/\" /> </p:dialog> <rich:modalPanel"));
 
@@ -120,9 +124,7 @@ public class RichToPrime {
 	list.add(new RichToPrime("enableManualInput=\"true\"", ""));
 	list.add(new RichToPrime("event=\"onhide\"", "event=\"close\""));
 	list.add(new RichToPrime("datePattern=\"dd.MM.yyyy\"", ""));
-	list.add(new RichToPrime("title=\"DÜZENLE\"", "value=\"DÜZENLE\""));
 	list.add(new RichToPrime("title=\"YENİ\"", "value=\"YENİ\""));
-	list.add(new RichToPrime("title=\"SİL\"", "value=\"SİL\""));
 	list.add(new RichToPrime("cellHeight=\"24\"", ""));
 	list.add(new RichToPrime("cellWidth=\"24px\"", ""));
 	list.add(new RichToPrime("cellHeight=\"22px\"", ""));

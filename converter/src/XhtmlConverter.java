@@ -12,7 +12,7 @@ public class XhtmlConverter {
 	    String filePath = "/home/beyaz/Desktop/xhtml/";
 
 	    // home name refactor bean
-	    addExtra("animalTypeDefinition");
+	    addExtra("animalMainShelterDefinition");
 
 	    File folder = new File(filePath);
 	    File[] listOfFiles = folder.listFiles();
