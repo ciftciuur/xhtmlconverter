@@ -130,6 +130,7 @@ public class RichToPrime {
 	list.add(new RichToPrime("cellHeight=\"22px\"", ""));
 	list.add(new RichToPrime("inputSize=\"32\"", ""));
 
+	list.add(new RichToPrime("alt=\"stats_icon\"", "icon=\"ui-icon-print\""));
 	list.add(new RichToPrime("noSelectionLabel=\"SEÇİNİZ\"", ""));
 
 	list.add(new RichToPrime("styleClass=\"input inputlowered\"", "lcase=\"\""));
