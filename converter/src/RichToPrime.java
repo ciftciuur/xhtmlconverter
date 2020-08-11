@@ -25,6 +25,8 @@ public class RichToPrime {
 
 	list.add(new RichToPrime("oncomplete=\"applyMasks();\"", ""));
 
+	list.add(new RichToPrime("alt=\"select_icon\"", "icon=\"fa fa-hand-o-up\""));
+
 	list.add(new RichToPrime("label=\"#{", "itemLabel=\"#{"));
 
 	list.add(new RichToPrime("styleClass=\"width100per input\"", ""));
@@ -37,6 +39,8 @@ public class RichToPrime {
 	list.add(new RichToPrime("alt=\"clear_icon\"", "icon=\"fa fa-eraser\""));
 	// alt="select_icon"
 	list.add(new RichToPrime("styleClass=\"formPanel\"", ""));
+
+	list.add(new RichToPrime("alt=\"ok_icon\"", "icon=\"ui-icon-print\""));
 
 	list.add(new RichToPrime("applyMaskToId('txtConsumable',false);", ""));
 
